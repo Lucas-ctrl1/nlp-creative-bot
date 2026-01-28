@@ -41,13 +41,13 @@ Before running the app, ensure you have the following installed:
 ## 🚀 Installation (Conda Method)
 
 1.  **Clone the Repository**
-    ```bash
+    ```
     git clone [https://github.com/Lucas-ctrl1/nlp-creative-bot.git](https://github.com/Lucas-ctrl1/nlp-creative-bot.git)
     cd nlp-creative-bot
     ```
 
 2.  **Create and Activate Conda Environment**
-    ```bash
+    ```
     # Create a new environment named 'creative-muse' with Python 3.10
     conda create -n creative-muse python=3.10 -y
 
@@ -56,7 +56,7 @@ Before running the app, ensure you have the following installed:
     ```
 
 3.  **Install Dependencies**
-    ```bash
+    ```
     # We use pip inside conda to ensure all specific libraries install correctly
     pip install -r requirements.txt
     ```
@@ -68,7 +68,7 @@ Before running the app, ensure you have the following installed:
 
 # 1.  Make sure **Ollama** is running in the background.
 # 2.  Run the Streamlit app:
-    ```bash
+    ```
     streamlit run run_chatbot.py
     ```
 # 3.  The app will open in your browser at `http://localhost:8501`.
